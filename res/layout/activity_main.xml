@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/my_content_view">
+    
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/CameraView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        opencv:camera_id="back"/>
+
+	
+
+	<!-- <Button
+	    android:id="@+id/EditBrowse"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    
+	    android:layout_marginRight="116dp"
+	    android:text="编辑文件" />
+
+	<Button
+	    android:id="@+id/EditAdd"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/EditWhole"
+	    android:layout_alignLeft="@+id/EditWhole"
+	    android:layout_marginBottom="55dp"
+	    android:text="修饰" />
+
+	<Button
+	    android:id="@+id/EditWhole"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="199dp"
+	    android:layout_toRightOf="@+id/Camera"
+	    android:text="滤镜" />
+
+	<Button
+	    android:id="@+id/Camera"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="225dp"
+	    android:layout_toRightOf="@+id/Down"
+	    android:text="拍摄" />
+
+	<Button
+	    android:id="@+id/SwitchCam"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="214dp"
+	    android:text="切换镜头" />
+-<HorizontalScrollView android:layout_height="120dp" android:layout_width="fill_parent"  android:id="@+id/HView">
+
+
+-<FrameLayout android:layout_height="match_parent" android:layout_width="fill_parent">
+
+
+-<LinearLayout android:layout_height="match_parent" android:layout_width="2700dp" android:orientation="horizontal">
+
+
+<com.gifplus.pcvimg.DragGridView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/dragGridViewAdd" android:columnWidth="80dip" android:numColumns="auto_fit" android:stretchMode="spacingWidthUniform" android:verticalSpacing="1.0dip" android:horizontalSpacing="1.0dip" android:gravity="center"> </com.gifplus.pcvimg.DragGridView>
+
+</LinearLayout>
+
+</FrameLayout>
+
+</HorizontalScrollView>
+
+<Button
+    android:id="@+id/Down"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/EditAdd"
+    android:layout_alignParentLeft="true"
+    android:text="GIF/VIDEO" />-->
+
+
+ <LinearLayout 
+    android:id="@+id/buttonsbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+      >
+    
+        <HorizontalScrollView android:layout_height="wrap_content" android:layout_width="fill_parent"  android:id="@+id/HView1">
+
+
+<FrameLayout android:layout_height="match_parent" 
+    android:layout_width="wrap_content"
+    >
+
+
+<LinearLayout android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:orientation="horizontal"
+    android:gravity="center">
+<Button
+    android:id="@+id/Cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/buttonBarButtonStyle"
+    android:text="撤销" 
+    android:background="@drawable/icon_btn"/>  
+<Button
+    android:id="@+id/Camera"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/buttonBarButtonStyle"
+    android:text="拍摄" 
+    android:textColor = "@color/white"
+    android:background="@drawable/icon_btn"/>
+<Button
+    android:id="@+id/SwitchCam"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/buttonBarButtonStyle"
+    android:text="切换镜头" 
+    android:textColor = "@color/white"
+    android:background="@drawable/icon_btn"/>
+     
+<!--  <Button
+    android:id="@+id/EditBrowse"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:text="编辑文件" 
+     style="?android:attr/buttonBarButtonStyle"
+     android:background="@drawable/icon_btn"/>
+-->
+
+
+
+
+
+</LinearLayout>
+
+</FrameLayout>
+
+</HorizontalScrollView>
+
+</LinearLayout>
+</RelativeLayout>

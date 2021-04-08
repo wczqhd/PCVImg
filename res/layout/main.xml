@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:id="@id/my_content_view">
+    <!--  
+    <GridView
+         android:id="@+id/maingrid"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:columnWidth="90dp"
+         android:numColumns="auto_fit"
+         android:verticalSpacing="10dp"
+         android:horizontalSpacing="10dp"
+         android:stretchMode="columnWidth"
+         android:gravity="center"
+         android:listSelector="@drawable/grid_background"
+         />
+-->
+
+  <!--    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRec"
+        android:layout_alignLeft="@+id/buttonRec"
+        android:layout_alignRight="@+id/buttonRec"
+        android:layout_marginBottom="33dp"
+        android:text="@string/create" />
+-->
+
+ <!--     <Button
+        android:id="@+id/buttonEdit"
+         style="?android:attr/buttonBarButtonStyle"
+       
+        android:background="@drawable/icon_btn_bk"
+       
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonRec"
+        style="?android:attr/buttonBarButtonStyle"
+       
+        android:background="@drawable/icon_btn_bk"
+        
+        android:text="@string/capture"
+        android:textColor="@color/white" />
+        -->
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonRec"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:text="@string/edit" 
+        android:background="@drawable/icon_btn_bk"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TitleBtnTextSize"/>
+
+    <Button
+        android:id="@+id/buttonRec"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/icon_btn_bk"
+        android:text="@string/capture"
+        android:textColor="@color/white" 
+        android:textSize="@dimen/TitleBtnTextSize"/>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GIF+</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello@@@!</string>
+    <string name="silde">silde!</string>
+    <string name="sec">Hello@@@!</string>
+    <string name="ok">确定</string>
+    <string name="cancel">返回</string>
+    <string name="text">请输入文字</string>
+    <string name="notext">您还没有输入文字</string>
+ <string name="text_edit">编辑文字</string>
+  <string name="pause">暂停</string>
+   <string name="play">播放</string>
+ <string name="saving">正在保存。。。</string>
+  <string name="save">保存</string>
+ <string name="please_wait">请稍候。。。</string>
+ <string name="caping">拍摄中。。。</string>
+ <string name="capture">拍摄</string>
+ <string name="edit">编辑</string>
+ <string name="search">搜索</string>
+ <string name="verifyquit">动画内容还未保存，确定要退出么？</string>
+ <string name="pushquit">再按一次退出程序</string>
+ <string name="choosecolor">选择色彩</string>
+ <string name="danmu">弹幕</string>
+ <string name="twicequit">再按一次退出程序</string>
+ <string name="share">分享</string>
+ <string name="create">创作</string>
+ <string name="file_too_big">文件体积过大，可能无法分享到微信</string>
+ <string name="send_appdata">分享到微信</string>
+ <string-array name="send_appdata_item">
+	    <item>发送到朋友圈</item>
+	    <item>发送给微信好友</item>
+	</string-array>
+</resources>
